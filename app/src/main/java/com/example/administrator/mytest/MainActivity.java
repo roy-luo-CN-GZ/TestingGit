@@ -46,9 +46,10 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
     }
 
-    /**
-     * 初始化pagerView内容
-     */
+    private void forTesting(){}
+
+    private void forTesting2(){}
+
     private void initPagerView(){
         for(int i=0;i<itemId.length;i++){
             ImageView image=new ImageView(this);
